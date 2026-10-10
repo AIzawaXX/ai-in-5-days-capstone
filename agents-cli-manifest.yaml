@@ -1,0 +1,15 @@
+name: helpdesk-agent
+acli_version: 1.9.0
+agent_directory: app
+region: us-central1
+base_template: adk
+generated_at: '2026-10-09T15:09:13.222334+00:00'
+language: python
+framework: google-adk
+create_params:
+  root_agent_name: helpdesk_agent
+  deployment_target: agent_runtime
+  cicd_runner: skip
+  is_a2a: true
+  agent_gateway: false
+  agent_guidance_filename: GEMINI.md
